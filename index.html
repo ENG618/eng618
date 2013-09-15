@@ -12,8 +12,15 @@
 		<meta name="viewport" content="user-scalable-no, width=divice-width" />
 		<title>ENG618</title>
 		<!-- Call CSS File -->
-		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+		<link href='css/screen_layout_large.css' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" type="text/cdd" media='only screen and (min-width:50px) and (max-width:500px)' href='css/screen_layout_small.css'>
+		<link rel="stylesheet" type="text/cdd" media='only screen and (min-width:501px) and (max-width:899px)' href='css/screen_layout_medium.css'>
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
+	</head>
 	<body>
 		<section class='page'>
 
@@ -22,26 +29,36 @@
 			</header>
 
 			<article>
-				<h2>Welcom</h2>
+				<h1>Welcome</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, consequatur, incidunt, atque, esse omnis totam voluptatum enim reprehenderit in corrupti laudantium obcaecati ratione assumenda ducimus similique quaerat asperiores cum ad provident illum repudiandae quis accusamus velit placeat itaque numquam eius perspiciatis quo excepturi fuga! Fugiat, nulla, ipsum aliquam dolorem iusto mollitia inventore sed porro provident nesciunt totam esse asperiores ut.</p>
 			</article>
 
 			<div class='promo_container'>
-
-				<div class='promo'>
-					<h3>Promo</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit animi praesentium perferendis cum vero eum?</p>
+				<div class='promo one'>
+					<div class='content'>
+						<h3>Promo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit animi praesentium perferendis cum vero eum?</p>
+						<p><a href="#" class='cta'>Visit our blog</a></p>
+					</div>
 				</div>
 
-				<div class='promo'>
-					<h3>Promo 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, blanditiis, dolorem, praesentium iste fugit voluptatibus nihil nobis quaerat doloremque consectetur odio distinctio pariatur facilis quo?</p>
+				<div class='promo two'>
+					<div class='content'>
+						<h3>Promo 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, blanditiis, dolorem, praesentium iste fugit voluptatibus nihil nobis quaerat doloremque consectetur odio distinctio pariatur facilis quo?</p>
+						<p><a href="#" class='cta'>Read the article</a></p>
+					</div>
 				</div>
 
-				<div class='promo'>
+				<div class='promo three'>
+					<div class='content'>
 					<h3>Promo 3</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, qui, assumenda quo ipsa odio quia ex itaque pariatur!</p>
+					<p><a href="#" class='cta'>Learn more</a></p>
+					</div>
 				</div>
+
+				<div class='clear-fix'></div>
 
 			</div>
 
