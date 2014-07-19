@@ -5,7 +5,8 @@ body{
 	line-height: 1.5em;
 	font-family: Arial;
 	font-size: 14px;
-	background: #515673 url(../images/background_gradient.jpg) repeat-x 0 0;
+	/*background: #515673 url(../images/background_gradient.jpg) repeat-x 0 0;*/
+	background-color: white;
 }
 
 .page{
@@ -42,7 +43,7 @@ a:hover{color: #009eff;}
 footer{
 	font-size: .85em;
 	color: #9ba0bd;
-	background-color: #575c7a;
+	/*background-color: #575c7a;*/
 	padding: 10px 10px 10px 0;
 }
 
@@ -90,7 +91,8 @@ nav a:hover{color: #fff;}
 }
 
 .scrollup {
-    background: url("img/icon_gototop.png") no-repeat scroll 0 0 transparent;
+    /*background: url("img/icon_gototop.png") no-repeat scroll 0 0 transparent;*/
+    background: url("../images/promo_1.jpg") no-repeat scroll 0 0 transparent;
     bottom: 20px;
     display: none;
     height: 40px;

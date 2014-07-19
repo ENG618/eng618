@@ -1,23 +1,30 @@
-alert("js is loding correctly!");
+// Eric Garcia
+// Professional Portfolio
+// Garcia Enterprise
+//
 
-if (window.jQuery){
-	alert("jQuery is loading!! :)");
-}else{
-	alert("jQuery is not loding :(");
-}
+// Verifying js is loading
+// alert("js is loading correctly!");
+
+// Verify if jQuery is loading
+// if (window.jQuery){
+// 	alert("jQuery is loading!! :)");
+// }else{
+// 	alert("jQuery is not loading :(");
+// }
 
 // scroll-to-top button show and hide
-jQuery(document).ready(function(){
-    jQuery(window).scroll(function(){
-        if (jQuery(this).scrollTop() > 100) {
-            jQuery('.scrollup').fadeIn();
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
         } else {
-            jQuery('.scrollup').fadeOut();
+            $('.scrollup').fadeOut();
     }
 });
 // scroll-to-top animate
-jQuery('.scrollup').click(function(){
-    jQuery("html, body").animate({ scrollTop: 0 }, 600);
+$('.scrollup').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
         return false;
     });
 });
