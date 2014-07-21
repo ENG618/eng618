@@ -28,4 +28,20 @@ $('.scrollup').click(function(){
         return false;
     });
 
+//initiate the plugin and pass the id of the div containing gallery images 
+$("#img_MMD1").elevateZoom({
+    gallery:'MMD1',
+    cursor: 'pointer',
+    galleryActiveClass: 'active',
+    imageCrossfade: true,
+    loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'
+});
+
+//pass the images to Fancybox 
+$("#img_MMD1").on("click", function(e) {
+    var ez = $('#img_MMD1').data('elevateZoom');    
+        $.fancybox(ez.getGalleryList()); 
+    return false;
+});//See more at: http://www.elevateweb.co.uk/image-zoom/examples#sthash.RN3lOGIH.dpuf
+
 });
