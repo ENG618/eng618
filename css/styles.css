@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 body{
-	color: #575c7a;
+	color: #738070;
 	line-height: 1.5em;
 	font-family: Arial;
 	font-size: 14px;
@@ -19,7 +19,7 @@ body{
 h1{
 	font-size: 2em;
 	font-weight: normal;
-	color: #a6430a;
+	color: #738070;
 	margin: 0 0 .5em 0;
 }
 
@@ -35,14 +35,15 @@ h3{
 
 p{
 	margin: 0 0 .75em 0;
+	text-indent: 30px;
 }
 
-a{color: #de9000;}
-a:hover{color: #009eff;}
+a{color: #738070;}
+a:hover{color: #ADBFA7;}
 
 footer{
 	font-size: .85em;
-	color: #9ba0bd;
+	color: #738070;
 	background-color: #E7FFDF;
 	padding: 10px 10px 10px 0;
 }
@@ -76,14 +77,14 @@ a.cta:hover{background-position: right -50px}
 .promo.three{background-image: url(../images/promo_3.jpg);}
 
 nav a{
-	color: #f5a06e;
+	color: #;
 	text-transform: uppercase;
 	text-decoration: none;
 	display: inline-block;
 	font-weight: bold;
 	font-size: .9em;
 }
-nav a:hover{color: #fff;}
+nav a:hover{color: #E7FFDF;}
 
 .clear-fix{
 	clear: both;

@@ -20,11 +20,11 @@ article{padding: 20px 20px 10px 20px;}
 nav{
 	position: static;
 	padding: 10px 0 10px 0;
-	background-color: #515673;
+	background-color: #D0E6C9;
 }
 
 nav a{
-	color: #a6abc5;
+	color: #738070;
 	display: block;
 	margin: 15px;
 	padding: 9px;
@@ -35,7 +35,7 @@ nav a{
 	border-radius: 12px;
 }
 nav a:hover{
-	color: #fff;
+	color: #ADBFA7;
 	background-color: rgba(255,255,255,.15);
 }
 
