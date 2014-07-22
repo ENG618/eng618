@@ -3,7 +3,6 @@
 /* Layout Small Screens */
 
 header{
-	height: 75px;
 	background: url(../images/banner_small.jpg) no-repeat right 0;
 }
 
@@ -18,21 +17,15 @@ header a.logo{
 article{padding: 20px 20px 10px 20px;}
 
 nav{
-	position: static;
-	padding: 10px 0 10px 0;
-	background-color: #D0E6C9;
+	padding: 0px;
 }
 
 nav a{
-	color: #738070;
 	display: block;
-	margin: 15px;
+	margin: 0px;
 	padding: 9px;
-	border: 1px solid #a6abc5;
+	border-bottom: 1px solid #E7FFDF;
 	background: url(../images/mobile_link_arrow.png) no-repeat right center;
-	-moz-border-radius: 12px;
-	-webkit-border-radius: 12px;
-	border-radius: 12px;
 }
 nav a:hover{
 	color: #ADBFA7;

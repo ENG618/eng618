@@ -17,14 +17,12 @@ header a.logo{
 nav{
 	width: 100%;
 	display: block;
-	position: absolute;
 	background-color: #3A4038;
 }
 
 /* Layout Large Screens (default for older browsers) */
 
 header{
-	height: 275px;
 	background: url(../images/banner_large.jpg) no-repeat right 0;
 }
 
@@ -36,7 +34,7 @@ header a.logo{
 	background-image: url(../images/logo_large.png)
 }
 
-article{padding: 60px 20px 10px 20px;}
+article{padding: 30px 20px 10px 20px;}
 
 .promo_container{padding: 0 0 15px 20px;}
 .promo_container .promo{
