@@ -10,7 +10,7 @@ header a.logo{
 	width: 105px;
 	height: 40px;
 	top: 16px;
-	right: 15px;
+	left: 10px;
 	background-image: url(../images/logo_small.png);
 }
 
@@ -47,6 +47,14 @@ footer{border-top: 1px solid #a6abc5;}
 body{background-image: none;}
 
 
+#hero{
+	height: 100px;
+	background: url(../image/banner_small.jpg) no-repeat right 0px;
+}
+
+#hero .panel .caption{
+	display: none;
+}
 
 
 

@@ -91,6 +91,33 @@ nav a:hover{color: #E7FFDF;}
 	line-height: 1px;
 }
 
+#hero .panel .caption{
+	color: rgba(255,255,255,.65);
+	line-height: 14px;
+}
+#hero .panel .caption h3{
+	color: #fff;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+#hero .panel .caption p {
+	margin-bottom: 5px;
+}
+
+#hero .panel .caption a.cta{
+	font-size: .8em;
+	margin: 0;
+	color: #E7FFDF;
+	background-position: right;
+	right: -101px
+}
+
+#hero .panel .caption a.cta:hover{
+	color: #fff;
+	background-position: right -151px;
+}
+
 .scrollup {
     /*background: url("img/icon_gototop.png") no-repeat scroll 0 0 transparent;*/
     background: url("../images/scrollUp.png") no-repeat scroll 0 0 transparent;
