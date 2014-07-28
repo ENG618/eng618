@@ -46,6 +46,7 @@ article{padding: 30px 20px 10px 20px;}
 
 nav{
   top: 275px;
+  overflow: hidden;
 }
 nav a{margin: 12px 0 10px 20px;}
 
