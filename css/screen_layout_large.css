@@ -81,6 +81,10 @@ nav a{margin: 12px 0 10px 20px;}
   padding: 25px 20px 15px 35px;
 }
 
+a.mobile_menu{
+  display: none;
+}
+
 
 
 

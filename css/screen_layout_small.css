@@ -56,6 +56,22 @@ body{background-image: none;}
   display: none;
 }
 
+a.mobile_menu{
+  display: block;
+  width: 30px;
+  height: 34px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #3A4038 url(../images/mobile_link_menu.png) no-repeat 4px 4px;
+  position: absolute; top: 64px; left: 10px;
+  cursor: pointer;
+}
+
+a.mobile_menu.selected{ background-position: 4px -26px;}
+
 
 
 
