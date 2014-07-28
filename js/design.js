@@ -51,7 +51,7 @@ function checkBrowserSize() {
 $(document).ready(function () {
   // alert('Is working');
   checkBrowserSize();
-  setInterval('checkBrowserSize()', 1000);
+  setInterval('checkBrowserSize()', 100);
   //loadHero();
 
   $('a.mobile_menu').on('click', function () {
