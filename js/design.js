@@ -37,18 +37,19 @@ function checkBrowserSize() {
   if (actualSize <= 800 && actualSize > 500) {newWindowSize = 'medium'; }
   if (actualSize <= 500) {newWindowSize = 'small'; }
 
-  $('h1').html(windowWidth + ' (' + contentWidth + '+' + sizeDiff + ')' + ' is ' + newWindowSize);
+  // $('h1').html(windowWidth + ' (' + contentWidth + '+' + sizeDiff + ')' + ' is ' + newWindowSize);
 
   if (windowSize !== newWindowSize) {
     windowSize = newWindowSize;
     loadHero();
-  } else {
-    $('h1').append(' -- no change');
+  // } else {
+  //   $('h1').append(' -- no change');
   }
 }
 
 
 $(document).ready(function () {
+  // alert('Is working');
   checkBrowserSize();
   setInterval('checkBrowserSize()', 1000);
   //loadHero();
