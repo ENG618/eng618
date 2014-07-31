@@ -13,13 +13,13 @@ function loadHero() {
     $('#hero').load('content/hero_content_large.html');
   }
   if (windowSize === 'medium') {
-    if (actualSize > 500) {
+    if (actualSize > 720) {
       $('nav').css('height', 'auto');
     }
     $('#hero').load('content/hero_content_medium.html');
   }
   if (windowSize === 'small') {
-    if (actualSize <= 500) {
+    if (actualSize <= 720) {
       $('nav').css('height', '0px');
     }
     $('#hero').html('');
@@ -33,9 +33,9 @@ function checkBrowserSize() {
   var sizeDiff = windowWidth - contentWidth;
   actualSize = windowWidth - sizeDiff;
 
-  if (actualSize > 800) {newWindowSize = 'large'; }
-  if (actualSize <= 800 && actualSize > 500) {newWindowSize = 'medium'; }
-  if (actualSize <= 500) {newWindowSize = 'small'; }
+  if (actualSize > 999) {newWindowSize = 'large'; }
+  if (actualSize <= 999 && actualSize > 720) {newWindowSize = 'medium'; }
+  if (actualSize <= 720) {newWindowSize = 'small'; }
 
   // $('h1').html(windowWidth + ' (' + contentWidth + '+' + sizeDiff + ')' + ' is ' + newWindowSize);
 
